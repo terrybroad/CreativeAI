@@ -1,0 +1,31 @@
+# This a template for creating your own model and training configs
+# Copy and paste this file and fill in the variables with the set out types
+# See nanoGPT/config.py for more information
+
+# Config for the model parameters
+model_config:
+  n_layer: int
+  n_head: int
+  n_embd: int
+  block_size: int
+  dropout: float
+  bias: bool
+
+# This bar is needed to separate the configs
+---
+# Both configs should be in one file
+
+# Config for the training parameters
+training_config:
+  batch_size: int
+  learning_rate: float
+  min_lr: float
+  max_iters: int
+  lr_decay_iters: int
+  warmup_iters: int
+  beta1: float
+  beta2: float
+  grad_clip: float
+  weight_decay: float
+  decay_lr: bool
+  init_from: str

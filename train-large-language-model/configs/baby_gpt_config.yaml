@@ -1,0 +1,24 @@
+model_config:
+  n_layer: 6
+  n_head: 6
+  n_embd: 384
+  block_size: 256
+  vocab_size: 65
+  dropout: 0.2
+  bias: False
+
+---
+
+training_config:
+  batch_size: 64
+  learning_rate: 0.001
+  min_lr: 0.00005
+  max_iters: 5000
+  lr_decay_iters: 200
+  warmup_iters: 100
+  beta1: 0.9
+  beta2: 0.99
+  grad_clip: 1.0
+  weight_decay: 0.1
+  decay_lr: True
+  init_from: 'scratch'

@@ -172,6 +172,7 @@ LICENSE
 !media/sounds/*.wav
 !media/texts/*.txt
 !data/nursery-rhymes/*.txt
+!train-large-language-model/configs/*.yaml
 
 # Core files
 !requirements.txt
