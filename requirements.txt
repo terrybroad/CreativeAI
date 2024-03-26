@@ -5,6 +5,7 @@ gdown
 wget
 tqdm
 wandb 
+ninja
 torch
 torchvision
 torchaudio
