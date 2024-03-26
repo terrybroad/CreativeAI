@@ -167,7 +167,7 @@ if __name__ == "__main__":
                 f'projection_animation/{str(im_index).zfill(6)}.png',
                 nrow=8,
                 normalize=True,
-                range=(-1, 1)
+                value_range=(-1, 1)
             )
             im_index += 1
             
