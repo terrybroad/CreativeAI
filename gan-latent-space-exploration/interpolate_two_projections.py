@@ -42,7 +42,7 @@ def interpolate(args, generator, l1, l2, n1, n2):
                 f'interpolate_two_projections/{str(i).zfill(6)}.png',
                 nrow=1,
                 normalize=True,
-                range=(-1, 1),
+                value_range=(-1, 1),
             )
 
 

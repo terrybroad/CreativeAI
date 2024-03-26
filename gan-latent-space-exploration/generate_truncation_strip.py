@@ -27,7 +27,7 @@ def generate_truncation_strip(args, generator, latent, noise):
             f'sample/truncation_strip.png',
             nrow=8,
             normalize=True,
-            range=(-1, 1)
+            value_range=(-1, 1)
         )
 
 if __name__ == '__main__':

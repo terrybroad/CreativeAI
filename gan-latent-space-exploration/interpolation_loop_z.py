@@ -31,7 +31,7 @@ def interpolate_loop_z(args, generator):
                 f'interpolation_loop_z/{str(i).zfill(6)}.png',
                 nrow=1,
                 normalize=True,
-                range=(-1, 1),
+                value_range=(-1, 1),
             )
 
 

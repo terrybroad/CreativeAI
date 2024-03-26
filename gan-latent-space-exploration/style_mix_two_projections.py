@@ -28,7 +28,7 @@ def mix_styles(args, generator, l1, l2, n1, n2):
             f'sample/style_mix_'+args.label+'.png',
             nrow=8,
             normalize=True,
-            range=(-1, 1)
+            value_range=(-1, 1)
         )
 
 if __name__ == '__main__':
